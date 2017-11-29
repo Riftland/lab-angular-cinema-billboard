@@ -1,3 +1,9 @@
 <p>
   my-home works!
 </p>
+
+<div *ngFor="let movie of listMovies">
+  <h3>ROOM {{movie.id}}</h3>
+  <img src="{{movie.poster}}">
+  <h4>{{movie.title}}</h4>
+</div>
