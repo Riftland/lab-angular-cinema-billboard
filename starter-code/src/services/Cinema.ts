@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { IMovies } from '../interfaces/IMovies';
 
 @Injectable()
-export class Cinema implements IMovies{
+export class CinemaService implements IMovies{
 
   //Properties from interface
   id:number;
