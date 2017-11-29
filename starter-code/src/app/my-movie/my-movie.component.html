@@ -1,19 +1,22 @@
 
-<div>
-  <h3>ROOM {{movie.id}}</h3>
-  <h2>{{movie.title}}</h2>
-  <img src="{{movie.poster}}">
-</div>
-<div>
-  <h4>Genres: {{movie.genres}}</h4>
-  <h4>Year: {{movie.year}}</h4>
-  <h4>Director: {{movie.director}}</h4>
-  <h4>Actors: </h4>
-  <ul *ngFor="let actor of movie.actors">
-    <li>{{actor}}</li>
-  </ul>
-  <h4>Synopsis: </h4>
-  <p><em>{{movie.synopsis}}</em></p>
-</div>
-<br><br>
+<section>
+  <div class="left">
+    <h3>ROOM {{movie.id}}</h3>
+    <h2>{{movie.title}}</h2>
+    <img src="{{movie.poster}}">
+  </div>
+  <div class="right">
+    <h4>Genres: {{movie.genres}}</h4>
+    <h4>Year: {{movie.year}}</h4>
+    <h4>Director: {{movie.director}}</h4>
+    <h4>Actors: </h4>
+    <ul *ngFor="let actor of movie.actors">
+      <li>{{actor}}</li>
+    </ul>
+    <h4>Synopsis: </h4>
+    <p><em>{{movie.synopsis}}</em></p>
+  </div>
+  <br><br>
+</section>
+
 <a [routerLink]="['/']"><h2>Go to main!</h2></a>

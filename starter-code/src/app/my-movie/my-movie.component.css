@@ -1,0 +1,27 @@
+
+section {
+  margin: 0 auto;
+  width: 50%;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  height: 500px;
+}
+
+.left {
+  text-align: center;
+}
+
+.right {
+  width: 500px;
+  padding-left: 20px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}

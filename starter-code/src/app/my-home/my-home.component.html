@@ -1,6 +1,7 @@
-
-<div *ngFor="let movie of listMovies">
-  <h3>ROOM {{movie.id}}</h3>
-  <img src="{{movie.poster}}">
-  <a [routerLink]="['/movie', movie.id]"><h4>{{movie.title}}</h4></a>
-</div>
+<section>
+  <div class="movie" *ngFor="let movie of listMovies">
+    <h3>ROOM {{movie.id}}</h3>
+    <img src="{{movie.poster}}">
+    <a [routerLink]="['/movie', movie.id]"><h4>{{movie.title}}</h4></a>
+  </div>
+</section>

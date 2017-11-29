@@ -5,7 +5,7 @@ import { listMovies } from '../sample-movies';
 @Injectable()
 export class CinemaService{
 
-  //Properties from interface
+  //Propiedades para la interfaz en caso de utilizarla, al final he utilizado el fichero sample-movies tal cual
   // id:number;
   // title:string;
   // poster:string;

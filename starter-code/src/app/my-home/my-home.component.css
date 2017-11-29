@@ -1,3 +1,19 @@
+
 img {
   height: 400px;
+}
+
+.movie {
+  display: inline-block;
+  padding: 50px;
+}
+
+section {
+  color: lightblue;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
 }
